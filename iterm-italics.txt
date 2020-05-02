@@ -1,0 +1,2 @@
+https://medium.com/@dubistkomisch/how-to-actually-get-italics-and-true-colour-to-work-in-iterm-tmux-vim-9ebe55ebc2be
+https://alexpearce.me/2014/05/italics-in-iterm2-vim-tmux/

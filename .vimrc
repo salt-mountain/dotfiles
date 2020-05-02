@@ -5,9 +5,9 @@ set nocompatible
 set number
 
 " Dracula Color Theme
-"packadd! dracula
+packadd! dracula
 syntax enable
-"colorscheme dracula
+colorscheme dracula
 
 " Files to ignore
 " Python

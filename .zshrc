@@ -38,6 +38,7 @@ export SAVEHIST=$HISTSIZE
 alias history="fc -il 1"
 alias ls="exa --long --header --git"
 alias lst="exa --long --header --git --tree"
+alias ssh="TERM=xterm-256color ssh"
 alias vim="/usr/local/bin/vim"
 
 # If you come from bash you might have to change your $PATH.

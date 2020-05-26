@@ -1,5 +1,6 @@
 " Don't try to be vi compatible
 set nocompatible
+set backspace=indent,eol,start
 
 " Show line numbers
 set number

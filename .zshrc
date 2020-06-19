@@ -35,6 +35,7 @@ export HIST_STAMPS="yyyy-mm-dd"
 export SAVEHIST=$HISTSIZE
 
 # Aliases 
+alias flushdns='sudo killall -HUP mDNSResponder'
 alias history="fc -il 1"
 alias ls="exa --long --header --git"
 alias lst="exa --long --header --git --tree"

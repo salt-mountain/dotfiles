@@ -5,11 +5,18 @@ set backspace=indent,eol,start
 " Show line numbers
 set number
 
+" Set 256 colors in VIM
+set t_Co=256
+
 " Dracula Color Theme
-let g:dracula_italic = 0
+"let g:dracula_italic = 0
 packadd! dracula
 syntax enable
 colorscheme dracula
+set termguicolors
+
+" Enable italicised comments in VIM
+highlight Comment cterm=italic
 
 " Files to ignore
 " Python
@@ -40,4 +47,6 @@ set list
 set listchars=tab:→\ ,trail:·,nbsp:·
 
 " Remap escape
-inoremap jk <Esc>
+"inoremap jk <Esc>
+
+set mouse=
